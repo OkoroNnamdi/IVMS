@@ -1,0 +1,48 @@
+﻿@using Inventory.Repository.Paging;
+@using Inventory.ViewModel.UserCustomerType;
+@model PaginatedList<CustomerTypeViewModel>;
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               Customer_Type-ID
+            </th>
+            <th>
+               CustomerType Name
+            </th>
+            <th>
+               Description
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerTypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerTypeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="CustomerType" asp-action="Edit" asp-route-id="@item.CustomerTypeId">Edit</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-controller="CustomerType" asp-route-id="@item.CustomerTypeId" onClick="return confirm('Are you sure you want to delete this customer Type?')">Delete</a></td>
+        </tr>
+}
+    </tbody>
+</table>

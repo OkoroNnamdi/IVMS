@@ -1,0 +1,12 @@
+C:\Inventory\Inventory.Models\bin\Debug\net6.0\Inventory.Models.deps.json
+C:\Inventory\Inventory.Models\bin\Debug\net6.0\Inventory.Models.dll
+C:\Inventory\Inventory.Models\bin\Debug\net6.0\Inventory.Models.pdb
+C:\Inventory\Inventory.Models\obj\Debug\net6.0\Inventory.Models.csproj.AssemblyReference.cache
+C:\Inventory\Inventory.Models\obj\Debug\net6.0\Inventory.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Inventory\Inventory.Models\obj\Debug\net6.0\Inventory.Models.AssemblyInfoInputs.cache
+C:\Inventory\Inventory.Models\obj\Debug\net6.0\Inventory.Models.AssemblyInfo.cs
+C:\Inventory\Inventory.Models\obj\Debug\net6.0\Inventory.Models.csproj.CoreCompileInputs.cache
+C:\Inventory\Inventory.Models\obj\Debug\net6.0\Inventory.Models.dll
+C:\Inventory\Inventory.Models\obj\Debug\net6.0\refint\Inventory.Models.dll
+C:\Inventory\Inventory.Models\obj\Debug\net6.0\Inventory.Models.pdb
+C:\Inventory\Inventory.Models\obj\Debug\net6.0\ref\Inventory.Models.dll
